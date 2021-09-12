@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body onload="load()">
+    <center>
+        <div id="ashu" >
+            <span >Details Form</span>
+            <hr id="hr">
+            <table id="main">
+                <tr align="center">
+                    <td class="a" width="50%">First Name:</td>
+                    <td class="m1" ><input type="text" id="a" size="25" name="a" required></td>
+                </tr>
+                <tr align="center">
+                    
+                    <td class="a" align="right">Last Name:</td>
+                    <td class="m1"><input type="text" id="l" size="25" name="a" required></td>
+                </tr>
+                <tr align="center">
+                    <td class="a">Mobile No.</td>
+                    <td class="m1"><input type="text" name ="b" id="b" size="25" required></td>
+                </tr>
+                <tr align="center">
+                    <td class="a">Email ID:</td>
+                    <td class="m1"><input type="text" name="c" id="c" size="25" required></td>
+                </tr>
+                <tr>
+                    <td colspan="2" id="p"><button  onclick="enable()">SUBMIT</Button></td>
+                </tr>
+        </table>
+        <hr>
+
+     <center>
+    <div id="myModal3" class="modal3">
+      <div id="ashu1">
+        <span>𝐄𝐝𝐢𝐭 𝐏𝐫𝐨𝐟𝐢𝐥𝐞</span>
+        <hr>
+        <table id="main">
+          <tr style="display: none;">
+            <td class="a">Id:</td>
+            <td colspan="2"><input type="text" id="id" size="25" name="id"></td>
+          </tr>
+          <tr>
+            <td class="a">First Name:</td>
+            <td colspan="2"><input type="text" id="First" size="25" name="First" required></td>
+          </tr>
+          <tr>
+            <td class="a">LastName:</td>
+            <td colspan="2"><input type="text" id="Last" size="25" name="Last" required></td>
+          </tr>
+          <tr>
+            <td class="a">Mobile No.</td>
+            <td><input type="text" id="mob" name="mob"  size="25" required></td>
+          </tr>
+          <tr>
+            <td class="a">Email ID:</td>
+            <td><input type="text" name="email" id="email" size="25" required></td>
+          </tr>
+          <tr>
+            <td colspan="2" id="p"><button onclick="update()">Update</Button></td>
+          </tr>
+        </table>
+        <hr>
+
+
+      </div>
+    </div>
+        
+        <table id="append">
+       	 <tr>
+             <th  style="width:100px;">FirstName</th>
+             <th  style="width:100px;">LastName</th>
+              <th  style="width:100px;" >Mob.No</th>
+              <th style="width:100px;">Email ID</th>
+            
+        </tr>
+       </table>
+    </div>
+    </center>
+    <script src="index.js"></script>
+</body>
+</html>
